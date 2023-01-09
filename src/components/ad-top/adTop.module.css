@@ -1,0 +1,41 @@
+.imgContainer{
+   position: relative;
+   padding-top: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+.img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+.text{
+   z-index: 1;
+   width: 80%;
+   height: 100px;
+   text-align: center;
+   font-size: 30px;
+   color: white;
+   overflow: hidden;
+}
+.text2{
+   margin-top: 10px;
+   font-size: 20px;
+}
+.flagContainer{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   display: flex;
+   justify-content: space-between;
+   width: 250px;
+   height: 100px;
+}
+.flag{
+   height: 100%;
+   width: 100px;
+   object-fit: contain;
+}

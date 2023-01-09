@@ -1,0 +1,89 @@
+.title{
+   text-align: center;
+   color: #C9C5F7;
+}
+.subtitle{
+   margin-top: 25px;
+   text-align: center;
+}
+.inputContainer{
+   margin-top: 18px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   
+}
+.text, input{
+   width: 100%;
+   border: 1px solid #3D365E;
+   color: white;
+   padding: 10px;
+}
+select{
+   padding: 10px;
+   border: 1px solid #3D365E;
+   color: white;
+}
+.btnContainer{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+  
+}
+.btnRegister{
+   font-weight: bold;
+   margin-top: 40px;
+   width: 200px;
+   height: 50px;
+   background: #EDA211;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+} 
+.disabledBTN{
+   margin-top: 40px;
+   width: 200px;
+   height: 50px;
+   background: grey;
+   cursor: no-drop;
+}
+.message{
+   text-align: center;
+}
+.textContainer{
+   margin-left: 10px;
+   cursor: pointer;
+}
+.linkStyle{
+   color: white;
+   font-size: 15px;
+   text-decoration: underline;
+   font-weight: bold;
+   color: #C9C5F7;
+   
+}
+.linkStyle:hover{
+   color: #EDA211;
+}
+.chexBoxContainer{
+   position: relative;
+   margin-top: 30px;
+   color: #C9C5F7;
+}
+.checkbox{
+   position: absolute;
+   top: 0;
+   left: -50%;
+}
+.err{
+   color: red;
+   border: 1px solid red;
+   display: block;
+}
+.errText{
+   margin-top: 10px;
+   color: red;
+}
+button{
+   text-align: center;
+}
